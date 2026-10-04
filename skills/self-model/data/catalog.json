@@ -1,0 +1,1953 @@
+{
+  "version": 1,
+  "baselineQuestions": [
+    {
+      "id": "b1",
+      "text": "做重要决定前，我通常会主动寻找额外的信息。",
+      "dimension": "information"
+    },
+    {
+      "id": "b2",
+      "text": "面对复杂问题，我习惯把它拆成几个部分。",
+      "dimension": "analytical"
+    },
+    {
+      "id": "b3",
+      "text": "即使有失败的可能，我也愿意尝试回报更高的选择。",
+      "dimension": "risk"
+    },
+    {
+      "id": "b4",
+      "text": "即使有些关键信息未知，我也能开始行动。",
+      "dimension": "uncertainty"
+    },
+    {
+      "id": "b5",
+      "text": "当我对结果负责时，我希望亲自掌握关键决策。",
+      "dimension": "control"
+    },
+    {
+      "id": "b6",
+      "text": "我通常会在开始之前规划好步骤和后备方案。",
+      "dimension": "planning"
+    },
+    {
+      "id": "b7",
+      "text": "我认为自己做决定很快。",
+      "dimension": "action"
+    },
+    {
+      "id": "b8",
+      "text": "遇到分歧时，我首先会寻找双方都能接受的方案。",
+      "dimension": "cooperation"
+    },
+    {
+      "id": "b9",
+      "text": "涉及熟人时，我仍倾向于使用同一套标准。",
+      "dimension": "fairness"
+    },
+    {
+      "id": "b10",
+      "text": "即使有代价，我也重视对长期伙伴的承诺。",
+      "dimension": "loyalty"
+    },
+    {
+      "id": "b11",
+      "text": "即使结果可能更好，我也不轻易突破已经认可的规则。",
+      "dimension": "rules"
+    },
+    {
+      "id": "b12",
+      "text": "我愿意牺牲一部分短期收益，换取更持久的价值。",
+      "dimension": "longterm"
+    },
+    {
+      "id": "b13",
+      "text": "面对不可逆的决定，我更喜欢先做小范围试验。",
+      "dimension": "reversibility"
+    },
+    {
+      "id": "b14",
+      "text": "出现新证据时，我愿意推翻自己已经投入的方案。",
+      "dimension": "adaptability"
+    },
+    {
+      "id": "b15",
+      "text": "面对权威建议，我通常还会独立检查其依据。",
+      "dimension": "independence"
+    },
+    {
+      "id": "b16",
+      "text": "我常觉得现有信息已经够用，不必再继续搜集。",
+      "dimension": "information",
+      "reverse": true
+    },
+    {
+      "id": "b17",
+      "text": "我做复杂决定主要依靠第一感觉。",
+      "dimension": "analytical",
+      "reverse": true
+    },
+    {
+      "id": "b18",
+      "text": "比起可能获得的收益，我更在意失去已经拥有的东西。",
+      "dimension": "risk",
+      "reverse": true
+    },
+    {
+      "id": "b19",
+      "text": "如果结果无法预测，我通常会感到难以推进。",
+      "dimension": "uncertainty",
+      "reverse": true
+    },
+    {
+      "id": "b20",
+      "text": "即使结果很重要，我也乐意把决定权交给合适的人。",
+      "dimension": "control",
+      "reverse": true
+    },
+    {
+      "id": "b21",
+      "text": "面对重要但信息不足的决定，我仍会很快做出选择。",
+      "dimension": "action"
+    },
+    {
+      "id": "b22",
+      "text": "有冲突时，我常会尝试了解对方所处的约束。",
+      "dimension": "cooperation"
+    },
+    {
+      "id": "b23",
+      "text": "我常因为眼前的紧迫需要而放下长期安排。",
+      "dimension": "longterm",
+      "reverse": true
+    },
+    {
+      "id": "b24",
+      "text": "即使已经有反面证据，我也很难放下投入很多的方案。",
+      "dimension": "adaptability",
+      "reverse": true
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "analytical",
+      "name": "分析倾向",
+      "english": "Analytical thinking",
+      "category": "如何思考",
+      "low": "凭整体感受",
+      "high": "拆解与分析",
+      "description": "是否倾向于拆解问题、比较条件与推敲因果。不是智力评分。"
+    },
+    {
+      "id": "information",
+      "name": "信息搜集",
+      "english": "Information seeking",
+      "category": "如何思考",
+      "low": "依现有信息行动",
+      "high": "主动补充信息",
+      "description": "行动前主动请求额外信息的倾向。更多信息不一定带来更好的决策。"
+    },
+    {
+      "id": "risk",
+      "name": "风险承担",
+      "english": "Risk tolerance",
+      "category": "如何决策",
+      "low": "保全已有",
+      "high": "接受不确定收益",
+      "description": "在可能损失资源时承担风险的意愿。需要结合信息优势和损失承受能力。"
+    },
+    {
+      "id": "uncertainty",
+      "name": "不确定性容忍",
+      "english": "Ambiguity tolerance",
+      "category": "如何决策",
+      "low": "希望先消除模糊",
+      "high": "能带着未知行动",
+      "description": "面对缺失或矛盾的信息时，继续行动的意愿。"
+    },
+    {
+      "id": "control",
+      "name": "控制偏好",
+      "english": "Control preference",
+      "category": "压力之下",
+      "low": "授权与分散",
+      "high": "亲自掌握关键决策",
+      "description": "集中决策权的倾向；可能在承担最终责任时增强。"
+    },
+    {
+      "id": "planning",
+      "name": "计划倾向",
+      "english": "Planning orientation",
+      "category": "如何决策",
+      "low": "临场安排",
+      "high": "预先设计步骤",
+      "description": "在行动之前构建步骤、资源安排与后备方案的倾向。"
+    },
+    {
+      "id": "action",
+      "name": "行动倾向",
+      "english": "Action orientation",
+      "category": "如何决策",
+      "low": "先观察和推演",
+      "high": "较早采取行动",
+      "description": "在明确约束前较早采取行动的倾向。谨慎不代表缺乏决断力。"
+    },
+    {
+      "id": "cooperation",
+      "name": "合作倾向",
+      "english": "Cooperation",
+      "category": "如何与人相处",
+      "low": "独立推进",
+      "high": "协作与协商",
+      "description": "面对利益不同的人时，寻找共同方案的倾向。"
+    },
+    {
+      "id": "fairness",
+      "name": "一致对待",
+      "english": "Impartiality",
+      "category": "重视什么",
+      "low": "考虑个别关系",
+      "high": "采用一致标准",
+      "description": "在关系与规则冲突时采用一致标准的倾向，不是道德评分。"
+    },
+    {
+      "id": "loyalty",
+      "name": "关系承诺",
+      "english": "Relational commitment",
+      "category": "重视什么",
+      "low": "任务优先",
+      "high": "维护既有关系",
+      "description": "在选择中维护已有关系与承诺的倾向；与公平并不互相排斥。"
+    },
+    {
+      "id": "rules",
+      "name": "规则导向",
+      "english": "Rule orientation",
+      "category": "重视什么",
+      "low": "按情境调整",
+      "high": "遵循既定原则",
+      "description": "权衡后果时坚持既定程序或原则的倾向。"
+    },
+    {
+      "id": "longterm",
+      "name": "长期取向",
+      "english": "Long-term orientation",
+      "category": "重视什么",
+      "low": "优先当下结果",
+      "high": "考虑持续影响",
+      "description": "在当前收益与未来影响之间分配注意力的方式。"
+    },
+    {
+      "id": "reversibility",
+      "name": "可逆性偏好",
+      "english": "Reversibility preference",
+      "category": "如何决策",
+      "low": "一次性承诺",
+      "high": "先保留调整空间",
+      "description": "是否更愿意通过试点、小步投入或退出条件保留选择。"
+    },
+    {
+      "id": "adaptability",
+      "name": "策略调整",
+      "english": "Adaptability",
+      "category": "压力之下",
+      "low": "维持原有策略",
+      "high": "根据新信息修正",
+      "description": "面对新证据时修正策略的倾向，不把改变自动解释为不一致。"
+    },
+    {
+      "id": "independence",
+      "name": "独立判断",
+      "english": "Independent judgment",
+      "category": "如何与人相处",
+      "low": "参考权威意见",
+      "high": "自行检验证据",
+      "description": "在权威或多数意见面前保留个人判断的倾向。"
+    }
+  ],
+  "contextNames": {
+    "governance": "公共治理",
+    "command": "团队指挥",
+    "business": "公司经营",
+    "life": "真实经历自述",
+    "baseline": "自我报告"
+  },
+  "scenarios": [
+    {
+      "id": "flood",
+      "title": "洪水之后",
+      "subtitle": "一座县城，十八天的余粮",
+      "description": "赈灾粮尚未抵达。粮商、乡绅与城外的流民，都在等待你的决定。",
+      "setting": "架空古代 · 洪灾后的第三日",
+      "role": "新任县令",
+      "context": "governance",
+      "accent": "amber",
+      "duration": "12–18 分钟",
+      "dimensions": [
+        "information",
+        "fairness",
+        "control",
+        "rules",
+        "longterm"
+      ],
+      "resources": [
+        {
+          "id": "supply",
+          "name": "粮食保障",
+          "unit": "指数",
+          "initial": 42
+        },
+        {
+          "id": "trust",
+          "name": "民众信任",
+          "unit": "指数",
+          "initial": 56
+        },
+        {
+          "id": "capacity",
+          "name": "行政余力",
+          "unit": "指数",
+          "initial": 66
+        }
+      ],
+      "nodes": [
+        {
+          "id": "f1",
+          "title": "十八天的窗口",
+          "narrative": "官仓余粮预计可维持十八天，朝廷赈济最快三十天后抵达。三家粮商拥有大部分存粮，粮价已上涨 170%。城外开始出现流民。你现在最想知道什么？",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "究竟有多少人已经断粮？",
+              "answer": "约八千人只能维持两天口粮，集中在城西和城外。",
+              "category": "人道信息"
+            },
+            {
+              "id": "info-1",
+              "question": "粮商库存与运输能力如何？",
+              "answer": "估计存粮可供全县二十五天，但库存未经核验；两座桥梁受损。",
+              "category": "市场信息"
+            },
+            {
+              "id": "info-2",
+              "question": "县衙可动用多少银两？",
+              "answer": "可动用三千两，按现价购粮只能补足六天。",
+              "category": "财政信息"
+            },
+            {
+              "id": "info-3",
+              "question": "强制征粮有什么执行风险？",
+              "answer": "衙役不足八十人，无法同时监管全部仓库；商人可能转移库存。",
+              "category": "执行风险"
+            }
+          ],
+          "choices": [
+            {
+              "id": "buy",
+              "text": "用官银收粮，定量平价发放",
+              "consequence": "两家粮商接受收购，粮食缺口缩小，但官银明显减少。最大粮商暂不表态。",
+              "effects": {
+                "supply": 17,
+                "capacity": -20,
+                "trust": 10
+              },
+              "hypotheses": [
+                {
+                  "dimension": "fairness",
+                  "direction": 0.55,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择按需求分配有限资源，可能重视一致的供给标准。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "negotiate",
+              "text": "联合粮商和乡绅协商赈济",
+              "consequence": "你换取了少量应急粮，保留官银，但协商耗去一天，承诺仍需落实。",
+              "effects": {
+                "supply": 9,
+                "trust": 7,
+                "capacity": -8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "cooperation",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择协商而非单方面命令，可能愿意协调多方利益。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "requisition",
+              "text": "征用商粮，并登记日后补偿",
+              "consequence": "应急粮迅速入仓，但部分商人开始隐藏库存，执行压力上升。",
+              "effects": {
+                "supply": 24,
+                "trust": -12,
+                "capacity": -18
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": 0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在紧急约束下选择集中调配，可能体现情境性的控制需求。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "f2",
+          "title": "夜间运粮",
+          "narrative": "最大粮商正在连夜向邻县运输粮食。他声称这些粮食早已售出。与此同时，邻县愿意提供一批粮食，但需要你担保按期归还。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "这批粮是否确有旧合约？",
+              "answer": "已有部分契约，但日期与数量存在争议，需要一天核验。",
+              "category": "法律信息"
+            },
+            {
+              "id": "info-1",
+              "question": "邻县粮多久能到？",
+              "answer": "若道路畅通，三天可达；仍有三成概率延迟。",
+              "category": "时间窗口"
+            },
+            {
+              "id": "info-2",
+              "question": "封锁道路会影响谁？",
+              "answer": "还会影响药材与修桥木料入城，无法只截留粮食。",
+              "category": "系统影响"
+            }
+          ],
+          "choices": [
+            {
+              "id": "verify",
+              "text": "查验契约，同时开放应急通道",
+              "consequence": "核验查出一部分虚假合约。合法货物获准放行，但调查占用了赈济人手。",
+              "effects": {
+                "supply": 6,
+                "capacity": -12,
+                "trust": 8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "rules",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择程序核验，可能重视证据与一致规则。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "block",
+              "text": "暂时封锁粮食外运",
+              "consequence": "一批粮食被留在县内，但周边商人提高了后续交易条件。",
+              "effects": {
+                "supply": 14,
+                "capacity": -10,
+                "trust": -7
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": 0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择临时集中干预以缓解资源压力。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "borrow",
+              "text": "保持通商，担保向邻县借粮",
+              "consequence": "邻县开始组织运输。借贷义务增加，当前缺粮还需短期安排。",
+              "effects": {
+                "supply": 10,
+                "capacity": -5,
+                "trust": 3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "risk",
+                  "direction": 0.45,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "以未来义务换取当前供给，可能接受一定履约风险。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true,
+          "conditional": {
+            "resource": "capacity",
+            "below": 42,
+            "text": "前期措施已经消耗大量行政余力，额外监管将进一步挤占赈济人手。"
+          }
+        },
+        {
+          "id": "f3",
+          "title": "城西的抢粮风波",
+          "narrative": "城西发生抢粮，暂无重伤。一名与你关系很好的乡绅被指控囤粮。他曾资助当地义学，并要求与你私下处理。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "指控有哪些证据？",
+              "answer": "有人目击夜间入仓，但目前还没有账册与库存核对。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "城西为何会发生抢粮？",
+              "answer": "发粮名册遗漏了一批外来流民，他们已等待两天。",
+              "category": "人道信息"
+            },
+            {
+              "id": "info-2",
+              "question": "独立调查能否开展？",
+              "answer": "可以请邻县文吏和本县民众代表共同核验，需两天。",
+              "category": "组织能力"
+            }
+          ],
+          "choices": [
+            {
+              "id": "equal",
+              "text": "公开统一标准，独立核验所有仓库",
+              "consequence": "乡绅接受核验，但关系变得紧张。相同标准减少了偏袒的质疑。",
+              "effects": {
+                "supply": 8,
+                "trust": 14,
+                "capacity": -13
+              },
+              "hypotheses": [
+                {
+                  "dimension": "fairness",
+                  "direction": 0.8,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "对熟人与其他粮商采用同一程序，可能支持一致标准。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "private",
+              "text": "先私下要求乡绅出粮赈济",
+              "consequence": "乡绅当天提供部分粮食，但外界仍质疑是否有隐秘交换。",
+              "effects": {
+                "supply": 15,
+                "trust": -5,
+                "capacity": -3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "loyalty",
+                  "direction": 0.4,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "利用既有关系推进救助，可能考虑关系的实际价值。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "relief",
+              "text": "先补发流民粮，再登记指控待查",
+              "consequence": "抢粮暂时平息，调查推迟，但相关证据已登记保全。",
+              "effects": {
+                "supply": -5,
+                "trust": 12,
+                "capacity": -6
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": 0.45,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "调整优先顺序，先处理眼前的人道缺口。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "f4",
+          "title": "十日内缴清赋税",
+          "narrative": "朝廷要求十日内缴清赋税。上级暗示，只要账面完整，实际粮食数量可以暂缓核实。你需要决定如何回应。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "延期申请需要什么？",
+              "answer": "可提交灾情、库存与救济名册，请求正式减免；审批可能超过十天。",
+              "category": "法律信息"
+            },
+            {
+              "id": "info-1",
+              "question": "如实报告的风险是什么？",
+              "answer": "可能被追责管理不善，但邻县也在准备同类奏报。",
+              "category": "权力信息"
+            },
+            {
+              "id": "info-2",
+              "question": "是否有共同申报渠道？",
+              "answer": "三县可联合呈报，前提是公开各自真实的损失情况。",
+              "category": "合作信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "report",
+              "text": "如实上报并联合邻县申请减免",
+              "consequence": "联合灾情报告获得受理，眼前的考核风险仍未消失。",
+              "effects": {
+                "trust": 9,
+                "capacity": -10,
+                "supply": 3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "independence",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在上级暗示下仍选择公开独立证据。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pay",
+              "text": "优先完成赋税，再缩减救济",
+              "consequence": "上级暂不追责，但救济口粮减少，部分民众转往邻县。",
+              "effects": {
+                "supply": -18,
+                "trust": -15,
+                "capacity": 8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "rules",
+                  "direction": 0.4,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "优先满足正式责任，可能重视制度约束或规避惩罚。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delay",
+              "text": "正式申请延期，并维持最低供给",
+              "consequence": "你保留了基本救济，但需要额外投入协调和说明。",
+              "effects": {
+                "supply": 2,
+                "trust": 5,
+                "capacity": -14
+              },
+              "hypotheses": [
+                {
+                  "dimension": "longterm",
+                  "direction": 0.5,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "维护后续救济与信誉，可能考虑长期后果。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true,
+          "conditional": {
+            "resource": "trust",
+            "below": 45,
+            "text": "此前的决定已削弱民众信任，新的供给调整更容易被理解为偏袒。"
+          }
+        },
+        {
+          "id": "f5",
+          "title": "雨停之后",
+          "narrative": "朝廷赈济终于到达，但数量只有承诺的六成。接下来是重建：你可以维持集中配给，也可以逐步恢复市场，或先在部分乡镇试行。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "不同乡镇的恢复状况怎样？",
+              "answer": "东部农田恢复较快，西部仍有大量安置人口，统一方案可能不适用。",
+              "category": "情境差异"
+            },
+            {
+              "id": "info-1",
+              "question": "哪类措施可以撤回？",
+              "answer": "试点配给和临时补助可每七日调整；长期独家采购合约难以撤回。",
+              "category": "可逆性"
+            },
+            {
+              "id": "info-2",
+              "question": "怎样判断试点有效？",
+              "answer": "每周记录断粮人数、市场价格和发放等待时间。",
+              "category": "反馈信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "pilot",
+              "text": "分区试行，并每周按结果调整",
+              "consequence": "东部逐步恢复市场，西部保留配给。你建立了每周复核机制，也承担持续协调成本。",
+              "effects": {
+                "supply": 10,
+                "trust": 10,
+                "capacity": -8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": 0.8,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择可调整的试点，保留不同情境下的选择空间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "retain",
+              "text": "保持全县集中配给一个月",
+              "consequence": "分配继续可控，行政负担也持续存在；部分商业活动恢复较慢。",
+              "effects": {
+                "supply": 7,
+                "trust": 0,
+                "capacity": -16
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在恢复阶段继续集中配给，值得与危机阶段的选择比较。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "market",
+              "text": "恢复市场，同时补助困难家庭",
+              "consequence": "行政压力下降，但对困难家庭识别与补助到位率提出新的要求。",
+              "effects": {
+                "supply": 3,
+                "trust": 6,
+                "capacity": 14
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "随着条件变化切换资源配置方式。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true
+        }
+      ]
+    },
+    {
+      "id": "command",
+      "title": "迷雾中的信号",
+      "subtitle": "信息不完整，窗口正在关闭",
+      "description": "带领一支救援协作队，在相互矛盾的消息和有限资源中做判断。军事指挥的抽象决策，不含战斗画面。",
+      "setting": "架空边境 · 风暴中的联合行动",
+      "role": "行动指挥官",
+      "context": "command",
+      "accent": "blue",
+      "duration": "10–15 分钟",
+      "dimensions": [
+        "risk",
+        "reversibility",
+        "information",
+        "independence",
+        "adaptability"
+      ],
+      "resources": [
+        {
+          "id": "supply",
+          "name": "行动资源",
+          "unit": "指数",
+          "initial": 68
+        },
+        {
+          "id": "trust",
+          "name": "团队信任",
+          "unit": "指数",
+          "initial": 60
+        },
+        {
+          "id": "capacity",
+          "name": "可用时间",
+          "unit": "指数",
+          "initial": 74
+        }
+      ],
+      "nodes": [
+        {
+          "id": "m1",
+          "title": "相互矛盾的消息",
+          "narrative": "前方两个站点都报告道路中断。你的任务是护送补给到达临时安置点。只有一条路线能在天黑前通过，但现有地图与侦察报告不一致。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "报告来源有多可靠？",
+              "answer": "甲组报告较新但视野受限；乙组报告完整，但已是六小时前。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "还能等待多久？",
+              "answer": "最多两小时；更晚出发将错过低水位窗口。",
+              "category": "时间窗口"
+            },
+            {
+              "id": "info-2",
+              "question": "是否有可撤回的侦察方案？",
+              "answer": "可先派无人侦察设备，三十分钟后获得局部数据，但会消耗电量。",
+              "category": "可逆性"
+            },
+            {
+              "id": "info-3",
+              "question": "原地等待的代价是什么？",
+              "answer": "安置点补给预计还可维持一天，延误会压缩明天的余地。",
+              "category": "人道信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "scout",
+              "text": "先短时侦察，设定三十分钟决策线",
+              "consequence": "侦察确认东侧路段可通行，西侧仍未知；决策时间随之缩短。",
+              "effects": {
+                "supply": -8,
+                "capacity": -12,
+                "trust": 6
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "通过有时间上限的小步验证减少不可逆承诺。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go",
+              "text": "依较新报告立即走东线",
+              "consequence": "队伍快速推进，但部分未知路段需要现场判断。",
+              "effects": {
+                "supply": -12,
+                "capacity": 5,
+                "trust": -2
+              },
+              "hypotheses": [
+                {
+                  "dimension": "risk",
+                  "direction": 0.55,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在信息不完整时接受行动风险。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wait",
+              "text": "等待完整报告后再出发",
+              "consequence": "完整报告抵达，但你已错过部分低水位窗口。",
+              "effects": {
+                "supply": -3,
+                "capacity": -24,
+                "trust": 3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "uncertainty",
+                  "direction": -0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "倾向先消除未知，也可能是认为等待收益更高。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "m2",
+          "title": "副官的异议",
+          "narrative": "副官指出前方一座桥梁可能承载不足。他建议分批通过，但这会延长行程。资深向导认为无需担心。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "桥梁有测量数据吗？",
+              "answer": "只有旧标识，灾后没有复核。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "分批通过增加多少时间？",
+              "answer": "约四十分钟，返程仍有备用路线。",
+              "category": "时间窗口"
+            },
+            {
+              "id": "info-2",
+              "question": "能否先进行载荷测试？",
+              "answer": "可用少量装备测试，但结果不能完全代表满载状态。",
+              "category": "执行风险"
+            }
+          ],
+          "choices": [
+            {
+              "id": "test",
+              "text": "先测试，再按结果分批通过",
+              "consequence": "测试发现桥面形变，队伍改为轻载分批通过。时间减少，但避免了整队同时暴露。",
+              "effects": {
+                "supply": -7,
+                "capacity": -15,
+                "trust": 10
+              },
+              "hypotheses": [
+                {
+                  "dimension": "analytical",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择检查关键假设而非直接采纳资历意见。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "guide",
+              "text": "采纳向导判断，一次通过",
+              "consequence": "队伍通过，但桥面受损，原路返回的选择不再可靠。",
+              "effects": {
+                "supply": -9,
+                "capacity": 4,
+                "trust": -7
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": -0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "接受较难撤回的行动以换取时间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delegate",
+              "text": "让副官负责分批方案",
+              "consequence": "副官安排分批通过，你处理后方协调。团队承担更多现场判断。",
+              "effects": {
+                "supply": -6,
+                "capacity": -17,
+                "trust": 14
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": -0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在关键环节授权，也可能是认可副官的专长。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true,
+          "conditional": {
+            "resource": "capacity",
+            "below": 55,
+            "text": "前面的安排已经明显压缩时间，你需要同时考虑错过窗口的代价。"
+          }
+        },
+        {
+          "id": "m3",
+          "title": "通信中断",
+          "narrative": "主通信链路中断。你能维持统一指令，但信息回传会延迟；也可授权各组按事先约定的条件行动。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "备用通信有多大覆盖？",
+              "answer": "每二十分钟可以进行一次短报文联络。",
+              "category": "组织能力"
+            },
+            {
+              "id": "info-1",
+              "question": "小组是否受过独立行动训练？",
+              "answer": "两组经验丰富，一组刚完成组建。",
+              "category": "组织能力"
+            },
+            {
+              "id": "info-2",
+              "question": "行动边界是否清晰？",
+              "answer": "可明确水位、时间与撤回阈值，避免各组自行扩大任务。",
+              "category": "可逆性"
+            }
+          ],
+          "choices": [
+            {
+              "id": "central",
+              "text": "所有小组等待统一指令",
+              "consequence": "行动同步性提高，但等待传令造成了资源消耗。",
+              "effects": {
+                "supply": -13,
+                "capacity": -16,
+                "trust": -3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": 0.75,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "压力下更集中控制，需要与平稳阶段比较。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bounded",
+              "text": "设置撤回阈值，分层授权",
+              "consequence": "熟练小组继续行动，新组保持协同。报告延迟仍然存在，但判断边界更清晰。",
+              "effects": {
+                "supply": -6,
+                "capacity": -5,
+                "trust": 12
+              },
+              "hypotheses": [
+                {
+                  "dimension": "planning",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "通过条件与边界安排分布式行动。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "all",
+              "text": "各组自行决定最合适路线",
+              "consequence": "现场速度提高，但出现重复运输，需要后续协调。",
+              "effects": {
+                "supply": -17,
+                "capacity": 3,
+                "trust": 3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": -0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在信息中断时选择分散决策。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "m4",
+          "title": "计划与新证据",
+          "narrative": "最新水位数据与原计划冲突。上级要求按原定时间完成；调整路线会被视为延误，但现有路线的风险已经改变。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "新数据的可靠性如何？",
+              "answer": "两套独立传感器给出相同上升趋势。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "绕行会造成什么影响？",
+              "answer": "增加一小时，能完成八成补给，余下需次日补运。",
+              "category": "资源分配"
+            },
+            {
+              "id": "info-2",
+              "question": "能否报告限制条件？",
+              "answer": "可以提交数据与替代方案，上级的回复可能晚于行动窗口。",
+              "category": "权力信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "adjust",
+              "text": "提交证据并调整目标与路线",
+              "consequence": "队伍完成八成补给，并保留次日补运能力。你需要说明未完成原目标的原因。",
+              "effects": {
+                "supply": -9,
+                "capacity": -12,
+                "trust": 12
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": 0.75,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "依据相互印证的新证据调整既有承诺。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "original",
+              "text": "遵循原计划加快推进",
+              "consequence": "抵达时间较早，但设备受损，后续行动资源减少。",
+              "effects": {
+                "supply": -23,
+                "capacity": 8,
+                "trust": -8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "rules",
+                  "direction": 0.5,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "优先遵守既有计划，也可能担心组织问责。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "split",
+              "text": "分拆任务，先运关键物资",
+              "consequence": "关键物资先抵达，其余计划延后；协调复杂度增加。",
+              "effects": {
+                "supply": -13,
+                "capacity": -5,
+                "trust": 7
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": 0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "拆分承诺以保留后续调整空间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "m5",
+          "title": "任务后的复盘",
+          "narrative": "行动结束，目标部分完成。一名组长认为此前的侦察和等待浪费时间，另一名认为正是这些安排避免了更大损失。你如何组织复盘？",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "有什么可核对的记录？",
+              "answer": "有各阶段时间、设备损耗和消息到达记录，无法知道未选择路线的真实结果。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "能否区分过程与运气？",
+              "answer": "可以列出当时可知信息，再评估决定；不能只凭最终结果归因。",
+              "category": "反馈信息"
+            },
+            {
+              "id": "info-2",
+              "question": "队员是否愿意提出反对意见？",
+              "answer": "匿名反馈较多，当面讨论较少，需要降低表达成本。",
+              "category": "社会信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "review",
+              "text": "还原当时信息，记录不同解释",
+              "consequence": "团队识别了信息延迟与责任不清的问题，下一次行动将改进阈值和联络。",
+              "effects": {
+                "supply": 5,
+                "capacity": 5,
+                "trust": 15
+              },
+              "hypotheses": [
+                {
+                  "dimension": "analytical",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "重建当时信息而非只按结果判断。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "defend",
+              "text": "解释原决策，保留既有流程",
+              "consequence": "流程继续稳定，但部分异议没有形成后续验证。",
+              "effects": {
+                "supply": 2,
+                "capacity": 8,
+                "trust": -6
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": -0.5,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "倾向保持原流程，也可能判断反面证据仍不足。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "team",
+              "text": "让各组提出试验方案，下次比较",
+              "consequence": "各组形成不同改进方案，需要共同约定比较标准。",
+              "effects": {
+                "supply": 4,
+                "capacity": -3,
+                "trust": 12
+              },
+              "hypotheses": [
+                {
+                  "dimension": "cooperation",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "将后续改进交给团队共同参与。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": false,
+          "freeformAllowed": true
+        }
+      ]
+    },
+    {
+      "id": "startup",
+      "title": "六个月之后",
+      "subtitle": "公司的下一步，也是你的选择",
+      "description": "现金只够六个月。增长、控制权、团队承诺与长期方向，无法同时保全。",
+      "setting": "现代城市 · 创业第三年",
+      "role": "创业公司 CEO",
+      "context": "business",
+      "accent": "violet",
+      "duration": "12–18 分钟",
+      "dimensions": [
+        "control",
+        "longterm",
+        "risk",
+        "loyalty",
+        "adaptability"
+      ],
+      "resources": [
+        {
+          "id": "supply",
+          "name": "现金余量",
+          "unit": "指数",
+          "initial": 52
+        },
+        {
+          "id": "trust",
+          "name": "团队信任",
+          "unit": "指数",
+          "initial": 64
+        },
+        {
+          "id": "capacity",
+          "name": "执行能力",
+          "unit": "指数",
+          "initial": 65
+        }
+      ],
+      "nodes": [
+        {
+          "id": "s1",
+          "title": "六个月的现金",
+          "narrative": "公司现金仅够维持六个月。老产品增长放缓，新产品可能带来机会。一位投资人愿意融资，但要求董事会多数席位。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "现金流的主要支出是什么？",
+              "answer": "人力占七成，两个低增长项目占人力的四成。",
+              "category": "财政信息"
+            },
+            {
+              "id": "info-1",
+              "question": "新产品是否有真实需求？",
+              "answer": "二十家访谈中六家愿意试用，尚无付费承诺。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-2",
+              "question": "融资条件有哪些限制？",
+              "answer": "投资人要求控制预算和高管任免，但支持保留核心研发。",
+              "category": "权力信息"
+            },
+            {
+              "id": "info-3",
+              "question": "缩减业务会影响哪些人？",
+              "answer": "约四分之一员工需转岗或离开，两家长期客户需要迁移。",
+              "category": "利益相关者"
+            }
+          ],
+          "choices": [
+            {
+              "id": "pilot",
+              "text": "缩减低效业务，小规模验证新产品",
+              "consequence": "现金窗口延长，新产品开始小范围付费验证，部分员工对未来不安。",
+              "effects": {
+                "supply": 12,
+                "trust": -5,
+                "capacity": -8
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": 0.75,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "先收缩投入再进行小规模验证，保留方向调整空间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fund",
+              "text": "接受融资和董事会调整",
+              "consequence": "现金压力缓解，重大支出需要董事会批准。",
+              "effects": {
+                "supply": 30,
+                "trust": 7,
+                "capacity": -4
+              },
+              "hypotheses": [
+                {
+                  "dimension": "control",
+                  "direction": -0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "为现金与团队稳定让渡部分控制权。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "launch",
+              "text": "维持控制权，集中推出新产品",
+              "consequence": "团队快速投入新方向，现金缓冲减少，成功高度依赖短期转化。",
+              "effects": {
+                "supply": -19,
+                "trust": 3,
+                "capacity": -15
+              },
+              "hypotheses": [
+                {
+                  "dimension": "risk",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "以较集中投入换取增长机会。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "s2",
+          "title": "核心员工提出离职",
+          "narrative": "技术负责人收到更稳定的工作机会。留下他需要加薪并承诺更明确的方向，其他员工可能要求同等待遇。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "交接需要多久？",
+              "answer": "完整交接需六周，另一名工程师可接手大部分工作。",
+              "category": "组织能力"
+            },
+            {
+              "id": "info-1",
+              "question": "他最在意什么？",
+              "answer": "主要是方向频繁变化和工作负荷，薪资是其次。",
+              "category": "社会信息"
+            },
+            {
+              "id": "info-2",
+              "question": "公司能承诺什么？",
+              "answer": "可以保证六周内不切换核心目标，但不能保证下一轮融资。",
+              "category": "可行性"
+            }
+          ],
+          "choices": [
+            {
+              "id": "listen",
+              "text": "讨论真实顾虑，明确六周目标",
+              "consequence": "负责人同意留下完成一个验证周期，团队工作边界也得到澄清。",
+              "effects": {
+                "supply": -7,
+                "trust": 13,
+                "capacity": 9
+              },
+              "hypotheses": [
+                {
+                  "dimension": "cooperation",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "通过理解约束寻找共同承诺。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "retain",
+              "text": "单独加薪，换取一年留任",
+              "consequence": "负责人留下，但固定支出增加，其他同事开始询问待遇差异。",
+              "effects": {
+                "supply": -15,
+                "trust": -6,
+                "capacity": 12
+              },
+              "hypotheses": [
+                {
+                  "dimension": "loyalty",
+                  "direction": 0.45,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "为关键关系投入资源，也可能是降低替换成本。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "handover",
+              "text": "尊重离职，投入交接与替补",
+              "consequence": "短期执行放缓，但知识转移减少了对个人的依赖。",
+              "effects": {
+                "supply": -5,
+                "trust": 3,
+                "capacity": -13
+              },
+              "hypotheses": [
+                {
+                  "dimension": "longterm",
+                  "direction": 0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "承担短期损失以降低长期的人员依赖。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true,
+          "conditional": {
+            "resource": "supply",
+            "below": 40,
+            "text": "前一次投入已压缩现金缓冲，新的固定承诺会进一步增加负担。"
+          }
+        },
+        {
+          "id": "s3",
+          "title": "增长突然下降",
+          "narrative": "新一轮数据显示，用户增长比预期低四成。投资人要求立即扩大投放，市场负责人认为应先验证留存和付费。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "用户留存发生了什么？",
+              "answer": "新渠道用户的七日留存明显偏低，原有客户基本稳定。",
+              "category": "证据信息"
+            },
+            {
+              "id": "info-1",
+              "question": "更大投放是否已被验证？",
+              "answer": "仅测试过小预算，扩大后获客成本尚不确定。",
+              "category": "风险信息"
+            },
+            {
+              "id": "info-2",
+              "question": "能否对照试验？",
+              "answer": "两周可以比较新渠道与老渠道，成本在现有预算内。",
+              "category": "可逆性"
+            }
+          ],
+          "choices": [
+            {
+              "id": "experiment",
+              "text": "先做两周对照试验",
+              "consequence": "试验发现新渠道质量偏低，团队获得了调整方向的证据，但错过一部分短期曝光。",
+              "effects": {
+                "supply": -8,
+                "trust": 7,
+                "capacity": -6
+              },
+              "hypotheses": [
+                {
+                  "dimension": "analytical",
+                  "direction": 0.75,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "优先区分不同渠道与解释，再扩大投入。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "spend",
+              "text": "扩大投放争取规模",
+              "consequence": "注册量上升，但低留存问题继续消耗现金。",
+              "effects": {
+                "supply": -22,
+                "trust": -4,
+                "capacity": -5
+              },
+              "hypotheses": [
+                {
+                  "dimension": "action",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "选择先行动获取规模，也可能是争取融资所需指标。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus",
+              "text": "暂停新渠道，服务现有客户",
+              "consequence": "收入较稳定，增长放缓，团队需要重新寻找增长路径。",
+              "effects": {
+                "supply": 6,
+                "trust": 5,
+                "capacity": 5
+              },
+              "hypotheses": [
+                {
+                  "dimension": "risk",
+                  "direction": -0.55,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "优先保护已验证业务，可能反映当前资源约束。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true
+        },
+        {
+          "id": "s4",
+          "title": "一份诱人的独家合约",
+          "narrative": "大型平台提出三年独家合作，可立即支付一笔资金，但要求停止服务竞争平台。公司一半潜在客户可能因此无法合作。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "退出条款是什么？",
+              "answer": "提前终止需要返还款项并支付额外违约金。",
+              "category": "可逆性"
+            },
+            {
+              "id": "info-1",
+              "question": "短期收益与长期市场呢？",
+              "answer": "资金可延长六个月，但潜在客户范围显著缩小。",
+              "category": "时间权衡"
+            },
+            {
+              "id": "info-2",
+              "question": "是否可以缩小独家范围？",
+              "answer": "平台愿意讨论一个产品线的短期试点，但预付款减半。",
+              "category": "谈判空间"
+            }
+          ],
+          "choices": [
+            {
+              "id": "limited",
+              "text": "谈判短期、单产品线试点",
+              "consequence": "平台接受缩小范围的合作，资金较少，但其他客户关系得以保留。",
+              "effects": {
+                "supply": 14,
+                "trust": 8,
+                "capacity": -7
+              },
+              "hypotheses": [
+                {
+                  "dimension": "longterm",
+                  "direction": 0.7,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "牺牲部分即时收益保留未来市场空间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "exclusive",
+              "text": "接受三年独家合约",
+              "consequence": "现金压力明显下降，一些现有与潜在客户转向其他供应商。",
+              "effects": {
+                "supply": 30,
+                "trust": -8,
+                "capacity": -5
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": -0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "接受退出成本较高的承诺换取当前稳定。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reject",
+              "text": "拒绝独家条件，继续独立经营",
+              "consequence": "方向保持独立，但公司需要更快证明自身可持续性。",
+              "effects": {
+                "supply": -8,
+                "trust": 6,
+                "capacity": -3
+              },
+              "hypotheses": [
+                {
+                  "dimension": "independence",
+                  "direction": 0.65,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "保留独立业务选择，也可能出于对合作价值的不同估计。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": true,
+          "irreversible": true,
+          "freeformAllowed": true,
+          "conditional": {
+            "resource": "supply",
+            "below": 30,
+            "text": "现金已接近警戒线。拒绝或延迟合作会使短期压力明显上升。"
+          }
+        },
+        {
+          "id": "s5",
+          "title": "留下什么，改变什么",
+          "narrative": "一个季度后，试验与客户反馈已经到来。一部分原先坚信的假设没有得到支持。团队希望你明确接下来一个季度的方向。",
+          "availableInformation": [
+            {
+              "id": "info-0",
+              "question": "哪些假设被否定？",
+              "answer": "用户愿意为核心工具付费，却很少使用你最看重的社交功能。",
+              "category": "反馈信息"
+            },
+            {
+              "id": "info-1",
+              "question": "放弃旧方向的成本？",
+              "answer": "约三个月投入无法收回，但一半基础设施可用于新方向。",
+              "category": "沉没成本"
+            },
+            {
+              "id": "info-2",
+              "question": "怎样持续验证？",
+              "answer": "可用月度付费留存和客户续约作为指标，提前约定停止条件。",
+              "category": "证据信息"
+            }
+          ],
+          "choices": [
+            {
+              "id": "pivot",
+              "text": "停止低价值功能，围绕付费需求迭代",
+              "consequence": "团队收拢方向并设定月度验证标准，过去的一部分投入被正式放下。",
+              "effects": {
+                "supply": 12,
+                "trust": 12,
+                "capacity": 10
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": 0.8,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "基于反馈修正方向，并接受不可收回的过去投入。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "persist",
+              "text": "坚持原愿景，继续投入一个季度",
+              "consequence": "产品方向保持连贯，但需要更长时间证明尚未验证的需求。",
+              "effects": {
+                "supply": -18,
+                "trust": -5,
+                "capacity": -9
+              },
+              "hypotheses": [
+                {
+                  "dimension": "adaptability",
+                  "direction": -0.6,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "在不利反馈后继续投入，也可能认为观察期过短。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "parallel",
+              "text": "保留旧方向，同时试验付费工具",
+              "consequence": "团队保留多种可能性，但有限资源被分散到两条路径。",
+              "effects": {
+                "supply": -7,
+                "trust": 3,
+                "capacity": -16
+              },
+              "hypotheses": [
+                {
+                  "dimension": "reversibility",
+                  "direction": 0.45,
+                  "weight": 0.28,
+                  "confidence": 0.35,
+                  "reason": "延缓完全放弃旧方向以保留选择空间。",
+                  "alternatives": [
+                    "可能是对当前资源约束的适应，而非稳定偏好。",
+                    "领域知识、角色责任与对方案可行性的判断也可能解释这一选择。"
+                  ]
+                }
+              ]
+            }
+          ],
+          "pressure": false,
+          "irreversible": true,
+          "freeformAllowed": true
+        }
+      ]
+    }
+  ],
+  "lifeTopics": [
+    {
+      "id": "risk",
+      "title": "一次有风险的选择",
+      "prompt": "请回忆最近一次风险明显较大的决定。当时发生了什么，你最终做了什么？"
+    },
+    {
+      "id": "conflict",
+      "title": "一次难以调和的分歧",
+      "prompt": "请讲一个你与他人产生严重分歧的真实事件。当时你们分别在意什么？"
+    },
+    {
+      "id": "principle",
+      "title": "利益与原则之间",
+      "prompt": "请回忆一次利益与原则发生冲突的经历。有哪些选择，你最后怎么做？"
+    },
+    {
+      "id": "unknown",
+      "title": "信息不足的时刻",
+      "prompt": "请描述一次信息不完整、但你必须做决定的经历。你当时知道什么，又不知道什么？"
+    },
+    {
+      "id": "mistake",
+      "title": "一次判断的改变",
+      "prompt": "请回忆一次后来发现自己判断有误的经历。你最初怎么想，什么改变了你的看法？"
+    }
+  ]
+}
