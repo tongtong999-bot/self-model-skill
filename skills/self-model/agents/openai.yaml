@@ -1,0 +1,4 @@
+interface:
+  display_name: "Self Model · 观己"
+  short_description: "从真实经历与情境选择中认识自己，比较发展路径，用小行动持续修正自我理解"
+  default_prompt: "使用 $self-model，从我最近的一件困扰开始，帮我理解自己的选择，并找到一个可尝试的小行动。"

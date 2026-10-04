@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.log
+__pycache__/
+private/
+profiles/
+reports/
+dist/
