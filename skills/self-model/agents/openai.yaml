@@ -1,4 +1,4 @@
 interface:
   display_name: "Self Model · 观己"
-  short_description: "不知道从哪里开始？我会逐步提问，陪你理解选择、比较方向并尝试小行动"
-  default_prompt: "使用 $self-model。我是第一次用，请带我开始，每次只问一个主要问题。"
+  short_description: "先通过系统问答与情境探索，再结合近期小事理解自己、比较方向并行动复盘"
+  default_prompt: "使用 $self-model，先带我完成系统探索，再结合最近一件小事，每次只问一个主要问题。"
